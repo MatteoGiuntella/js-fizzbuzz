@@ -35,7 +35,7 @@ for (let i = 1 ; i <= 100; i++) {
     if ( i % 15 == 0){
 
         myelement = ('fizzbuzz');
-
+        
     }
 
      else if ( i % 3 == 0 ) {
@@ -53,10 +53,10 @@ for (let i = 1 ; i <= 100; i++) {
   
     else myelement = i 
 
-
     console.log(myelement)
     let li = document.createElement('li');
     li.append(myelement);
+    li.setAttribute('class', myelement)
     ul.append(li);
 }
 

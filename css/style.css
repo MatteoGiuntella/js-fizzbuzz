@@ -1,0 +1,19 @@
+li{
+    width: 100px;
+    height: 100px;
+    list-style: none;
+    border: 1px solid red;
+    text-align: center;
+    line-height: 100px;
+    margin: 5px;
+    background-color: blue;
+}
+.fizz{
+    background-color: green;
+}
+.buzz{
+    background-color: red;
+}
+.fizzbuzz{
+    background-color: yellow;
+}
