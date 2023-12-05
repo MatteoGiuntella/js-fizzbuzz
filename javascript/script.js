@@ -19,4 +19,52 @@
 
 // 2- tutti i e 3 e i mulitpli di 3 dovranno avre 'fizz' al posto del numero
 
-// 3- i 5 dovranno avere 'buzz' e i multipli di 5 'fizzbuzz'
+// 3- i 5 dovranno avere 'buzz' 
+
+// 4- 15 e multipli di 15 dovranno avere 'fizzbuzz'
+
+
+// let prova = 1;
+// console.log(prova);
+
+let myelement = '';
+let ul = document.getElementById('myul')
+
+for (let i = 1 ; i <= 100; i++) {
+
+    if ( i % 15 == 0){
+
+        myelement = ('fizzbuzz');
+
+    }
+
+     else if ( i % 3 == 0 ) {
+
+
+        myelement = ('fizz');
+
+    }
+    else if ( i % 5 == 0 ) {
+
+
+        myelement = ('buzz');
+
+    }
+  
+    else myelement = i 
+
+
+    console.log(myelement)
+    let li = document.createElement('li');
+    li.append(myelement);
+    ul.append(li);
+}
+
+
+
+
+
+
+
+  
+
